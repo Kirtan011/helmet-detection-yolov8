@@ -4,7 +4,7 @@ This project is a **Helmet Detection System** using the YOLOv8 object detection 
 
 # Project Structure
 
-helmet-detection-yolov8/
+helmet-detection-yolov8/                                                                           
 |----dataset.yaml
 |----annotations
 |----images

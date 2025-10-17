@@ -9,7 +9,7 @@ import time
 import threading
 
 # Load YOLO model
-model = YOLO("D:/scet/aiml/helmet-detection-yolov8/runs/detect/train4/weights/best.pt")
+model = YOLO("E:/PYTHON/Helmet Detection/helmet-detection-yolov8/best.pt")
 
 # Email alert function (now runs in a separate thread)
 def send_alert_email(receiver_email, sender_email, sender_password, image_path):
@@ -41,8 +41,8 @@ def send_alert_email(receiver_email, sender_email, sender_password, image_path):
     email_thread.start()
 
 # Email credentials
-sender_email = "anmolpatel.ec22@scet.ac.in"
-receiver_email = "anmolpatel.ec22@scet.ac.in"
+sender_email = "kirtansuthar.ec22@scet.ac.in"
+receiver_email = "kirtansuthar.ec22@scet.ac.in"
 sender_password = "aift viyy wgcf fqfk"
 
 # Setup

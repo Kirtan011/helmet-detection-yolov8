@@ -32,13 +32,14 @@ Before training the model, we need to convert the dataset annotations from **Pas
 
 After conversion, your folder structure should look like this:
 
-Helmet-Detection-Dataset/
-├── Annotations/    # Contains VOC .xml annotations (original)
-├── JPEGImages/     # Contains image files (JPEG format)
-├── labels/         # Contains YOLO format .txt label files
-└── dataset.yaml    # YOLO configuration file
-
----
+```
+Helmet-Detection/
+├── 📁 Annotations
+├── 📁 JPEGImages
+├── 📁 labels
+├── 📄 dataset.yaml
+├── 📄 voc_to_yolo.py
+```
 
 # training the YOLOv8 Model
 Now that we have our dataset in YOLO format, we can train the YOLOv8 model on it.

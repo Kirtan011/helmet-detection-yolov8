@@ -2,34 +2,6 @@
 
 This project is a **Helmet Detection System** using the YOLOv8 object detection model. It detects whether a person is wearing a helmet using custom-trained YOLOv8 weights. The dataset used is from Kaggle and has been preprocessed and converted into the YOLO format for training.
 
-# Project Structure
-
-helmet-detection-yolov8/                                                                           
-|----dataset.yaml
-|----annotations
-|----images
-|      |----BikesHelmets0.png
-|     └── ...
-├──dataset 
-|      |----images/
-│     |      ├── train/
-│     |      │       ├── img1.jpg
-│     |      │       └── ...
-│     |      └── val/
-│     |              ├── img2.jpg
-│     |              └── ...
-|      |---- labels/
-│             ├── train/
-│             │    ├── img1.txt
-│             │    └── ...
-│             └── val/
-│                    ├── img2.txt
-│                    └── ...
-|----vol_to_yolo.py
-|----helmet_detected.py
-
----
-
 # Dataset
 
 - **Source:** [Helmet Detection Dataset - Kaggle](https://www.kaggle.com/datasets/andrewmvd/helmet-detection)
